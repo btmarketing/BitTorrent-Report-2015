@@ -1,0 +1,95 @@
+//
+// BT-CUSTOM
+// --------------------------------------------------
+
+.body {
+  border: 5px solid $bt-white;
+}
+
+.tabs {
+  list-style: none;
+  border-top: 1px solid $bt-gray;
+  border-bottom: 1px solid $bt-gray;
+  font-family: "franklin-gothic-urw";
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.tabs__item {
+  @extend .col-md-6;
+  text-align: center;
+  padding: 10px 0;
+
+  a {
+    color: $bt-gray;
+    text-decoration: none;
+  }
+
+  &:last-child {
+    border-left: 1px solid $bt-gray;
+  }
+
+}
+
+.tabs__item.active a {
+  color: $bt-blue;
+}
+
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list__item {
+  float: left;
+  border-bottom: 1px solid $bt-gray;
+  @extend .col-md-12;
+}
+
+.bundle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bundle__item {
+  float: left;
+  line-height: 75px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.bundle__item--num {
+  font-size: 12px;
+  color: $bt-gray;
+  font-family: "letter-gothic-std",sans-serif;
+}
+
+.bundle__item--order {
+  font-family: "franklin-gothic-urw";
+  color: $bt-gray;
+  font-size: 18px;
+  margin-left: 70px
+}
+
+.bundle__item--title {
+  font-family: "alternate-gothic-no-1-d";
+  font-size: 50px;
+  color: $bt-white;
+  margin-left: 30px;
+  position: relative;
+  top: 4px;
+  letter-spacing: 3px;
+}
+
+.bundle__item--artist {
+  font-family: "franklin-gothic-urw";
+  font-weight: 900;
+  font-size: 18px;
+  color: $bt-blue;
+  letter-spacing: 4px;
+  margin-left: 30px;
+}
+
