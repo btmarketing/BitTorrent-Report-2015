@@ -33,6 +33,7 @@ var name = {
 // Tasks
 // ----------------------------------------------------------------------------------------
 
+
 // Task: Sass
 gulp.task('sass', function() {
   return gulp.src(src.sass)
@@ -41,12 +42,12 @@ gulp.task('sass', function() {
     .pipe(autoprefixer())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(dest.css))
-    .pipe(reload({ stream:true }));
+    .pipe(browserSync.reload({stream: true}));
 });
 
 // Task: Watch
 gulp.task('watch', ['browserSync', 'sass'], function() {
-  gulp.watch(src.sass, ['sass'], reload);
+  gulp.watch(src.sass, ['sass']);
 });
 
 
