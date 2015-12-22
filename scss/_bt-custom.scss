@@ -2,12 +2,46 @@
 // BT-CUSTOM
 // --------------------------------------------------
 
-.body {
-  border: 5px solid $bt-white;
+body {
+  border: 15px solid $bt-white;
+}
+
+.header {
+  text-align: center;
+  font-family: "franklin-gothic-urw";
+  color: $bt-white;
+  letter-spacing: 1px;
+  padding: 30px 0;
+}
+
+.header__logo {
+  font-weight: 900;
+  letter-spacing: 6px;
+  font-size: 18px;
+  line-height: 22px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.header__divider {
+  border-bottom: 1px solid $bt-white;
+  width: 50px;
+  height: 10px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.header__tag {
+  font-weight: 300;
+  font-size: 12px;
+  display: block;
+  text-transform: uppercase;
 }
 
 .tabs {
   list-style: none;
+  margin: 0;
+  padding: 0;
   border-top: 1px solid $bt-gray;
   border-bottom: 1px solid $bt-gray;
   font-family: "franklin-gothic-urw";
@@ -65,23 +99,32 @@
   font-size: 12px;
   color: $bt-gray;
   font-family: "letter-gothic-std",sans-serif;
+  width: 100px;
 }
 
 .bundle__item--order {
   font-family: "franklin-gothic-urw";
   color: $bt-gray;
   font-size: 18px;
-  margin-left: 70px
+  width: 30px;
+  text-align: right;
 }
 
-.bundle__item--title {
+.bundle__item--title, {
   font-family: "alternate-gothic-no-1-d";
   font-size: 50px;
-  color: $bt-white;
   margin-left: 30px;
   position: relative;
   top: 4px;
   letter-spacing: 3px;
+  transition: color .3s ease;
+  a {
+    color: $bt-white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: darken($bt-white, 20%);
+  }
 }
 
 .bundle__item--artist {
@@ -91,5 +134,32 @@
   color: $bt-blue;
   letter-spacing: 4px;
   margin-left: 30px;
+}
+
+.cta {
+  padding: 40px 0 100px;
+}
+.btn-bt {
+  font-family: "franklin-gothic-urw";
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  background: none;
+  border: 1px solid $bt-white;
+  border-radius: 0;
+  width: 200px;
+  color: $bt-white;
+  transition: color .5s ease;
+  &:hover {
+    color: darken($bt-white, 20%);
+  }
+  a {
+    color: $bt-white;
+  }
+  @extend .col-md-2;
+  @extend .col-md-offset-5;
+}
+
+.lightbox {
+  display: none;
 }
 
