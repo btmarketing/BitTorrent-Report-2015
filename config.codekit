@@ -20,6 +20,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/gulpfile.js",
+		"outputAbbreviatedPath": "\/min\/gulpfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -62,21 +73,16 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/scss\/_bootstrap.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/scss\/_bootstrap.scss",
-		"outputAbbreviatedPath": "\/css\/style.css",
+	"\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/package-min.json",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/scss\/_bt-custom.scss": {
 		"createSourceMap": 0,
@@ -107,6 +113,22 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/scss\/_style.scss",
+		"outputAbbreviatedPath": "\/css\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},

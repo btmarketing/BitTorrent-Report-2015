@@ -1,0 +1,26 @@
+{
+  "name": "btreport2015",
+  "version": "1.0.0",
+  "description": "BitTorrent Report 2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btmarketing/BitTorrent-Report-2015.git"
+  },
+  "author": "Dan Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btmarketing/BitTorrent-Report-2015/issues"
+  },
+  "homepage": "https://github.com/btmarketing/BitTorrent-Report-2015#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

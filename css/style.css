@@ -1068,7 +1068,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #1a1a1a; }
+  background-color: red; }
 
 input,
 button,
@@ -1106,7 +1106,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #1a1a1a;
+  background-color: red;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1518,7 +1518,7 @@ pre {
   @media (min-width: 768px) {
     .container {
       width: 750px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .container {
       width: 970px; } }
   @media (min-width: 1200px) {
@@ -1863,7 +1863,7 @@ pre {
 
   .col-sm-offset-12 {
     margin-left: 100%; } }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
 
@@ -2214,7 +2214,7 @@ th {
   .table > tbody + tbody {
     border-top: 2px solid #ddd; }
   .table .table {
-    background-color: #1a1a1a; }
+    background-color: red; }
 
 .table-condensed > thead > tr > th,
 .table-condensed > thead > tr > td,
@@ -3587,7 +3587,7 @@ tbody.collapse.in {
         border-color: #eeeeee #eeeeee #ddd; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
-      background-color: #1a1a1a;
+      background-color: red;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -3645,7 +3645,7 @@ tbody.collapse.in {
     .nav-tabs.nav-justified > .active > a:hover,
     .nav-tabs-justified > .active > a:focus,
     .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: #1a1a1a; } }
+      border-bottom-color: red; } }
 
 .tab-content > .tab-pane {
   display: none; }
@@ -4306,7 +4306,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-  background-color: #1a1a1a;
+  background-color: red;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -5138,7 +5138,7 @@ button.close {
 
   .modal-sm {
     width: 300px; } }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .modal-lg {
     width: 900px; } }
 .tooltip {
@@ -5639,7 +5639,7 @@ button.close {
   .visible-xs-inline-block {
     display: inline-block !important; } }
 
-@media (min-width: 768px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
     display: block !important; }
 
@@ -5652,19 +5652,19 @@ button.close {
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important; } }
-@media (min-width: 768px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-block {
     display: block !important; } }
 
-@media (min-width: 768px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline {
     display: inline !important; } }
 
-@media (min-width: 768px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline-block {
     display: inline-block !important; } }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .visible-md {
     display: block !important; }
 
@@ -5677,15 +5677,15 @@ button.close {
   th.visible-md,
   td.visible-md {
     display: table-cell !important; } }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-block {
     display: block !important; } }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline {
     display: inline !important; } }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline-block {
     display: inline-block !important; } }
 
@@ -5717,10 +5717,10 @@ button.close {
 @media (max-width: 767px) {
   .hidden-xs {
     display: none !important; } }
-@media (min-width: 768px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
     display: none !important; } }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important; } }
 @media (min-width: 1200px) {
@@ -5806,7 +5806,7 @@ body {
   font-weight: 900;
   font-size: 14px;
   text-transform: uppercase; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .tabs {
       font-size: 11px; } }
 
@@ -5841,7 +5841,7 @@ body {
   transition: background .5s ease; }
   .list__item:hover {
     background-color: rgba(240, 240, 240, 0.1); }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .list__item {
       padding: 5px 0; } }
 
@@ -5855,7 +5855,7 @@ body {
   line-height: 75px;
   text-transform: uppercase;
   list-style: none; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .bundle__item {
       line-height: 26px; } }
 
@@ -5864,7 +5864,7 @@ body {
   color: #808080;
   font-family: "letter-gothic-std",sans-serif;
   width: 100px; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .bundle__item--num {
       display: none; } }
 
@@ -5875,7 +5875,7 @@ body {
   width: 30px;
   text-align: right;
   font-weight: 900; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .bundle__item--order {
       width: auto;
       font-size: 11px; } }
@@ -5892,7 +5892,7 @@ body {
   color: #f2f2f2; }
   .bundle__item--title:hover {
     color: #bfbfbf; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .bundle__item--title {
       font-size: 20px;
       float: none;
@@ -5905,7 +5905,7 @@ body {
   color: #55aaff;
   letter-spacing: 4px;
   margin-left: 30px; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .bundle__item--artist {
       font-size: 11px;
       margin-left: 20px; } }
@@ -5935,6 +5935,6 @@ body {
   display: none;
   width: 600px;
   height: 400px; }
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .lightbox {
       width: 100%; } }

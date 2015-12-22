@@ -27,7 +27,7 @@ $brand-danger:          #d9534f !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               $bt-black !default;
+$body-bg:               red !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-dark !default;
 
@@ -331,7 +331,7 @@ $screen-tablet:              $screen-sm-min !default;
 
 // Medium screen / desktop
 //** Deprecated `$screen-md` as of v3.0.1
-$screen-md:                  768px !default;
+$screen-md:                  992px !default;
 $screen-md-min:              $screen-md !default;
 //** Deprecated `$screen-desktop` as of v3.0.1
 $screen-desktop:             $screen-md-min !default;
