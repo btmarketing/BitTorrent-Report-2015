@@ -7,6 +7,7 @@ var sass         = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps   = require('gulp-sourcemaps');
 var browserSync  = require('browser-sync');
+var minifyCss    = require('gulp-minify-css');
 
 
 
@@ -40,6 +41,7 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
+    .pipe(minifyCss())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(dest.css))
     .pipe(browserSync.reload({stream: true}));
