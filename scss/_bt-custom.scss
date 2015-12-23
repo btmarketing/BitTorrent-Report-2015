@@ -92,6 +92,7 @@ body {
 
 .tabs__item.active a {
   color: $bt-blue;
+  cursor: default;
 }
 
  //*********
@@ -138,6 +139,7 @@ body {
   color: $bt-gray;
   font-family: "letter-gothic-std",sans-serif;
   width: 100px;
+  margin-left: 15px;
   @media (max-width: $screen-sm-max) {
     display: none;
  }
