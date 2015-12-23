@@ -314,11 +314,11 @@ http://bundle.media/news/2015/12/the-bittorrent-report-2015-edition" target="_bl
           <iframe src="about:blank" class="lightbox" data-src="//bundles.bittorrent.com/embed/bundles/49a801244a65fb76954fe647afa995f8f539d77e8f112bad656a18f31aa0605e" id="f10" style="border:none;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
           <script>
-          $(document).ready(function () {
-             $('iframe').each(function() {
-                 $(this).attr('src', $(this).data('src'));
-             });
-          });
+            $("a").click(function(){
+              $("iframe").each(function(){
+                $(this).attr("src", $(this).data("src"));
+              });
+            });
           </script>
 
         </div> <!--/container-->
